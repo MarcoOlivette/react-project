@@ -1,9 +1,13 @@
 import React from 'react';
 import Header from './components/Header'
+import ListProducts from './pages/main'
 
 function App() {
   return (
-    <Header> </Header>
+    <div>
+      <Header> </Header>
+      <ListProducts></ListProducts>
+    </div>
   );
 }
 
