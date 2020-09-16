@@ -2,6 +2,7 @@ import React, {
     Component
 } from 'react';
 import Api from '../../services/api'
+import "./style.css"
 
 export default class Main extends Component {
     state = {
@@ -28,6 +29,8 @@ export default class Main extends Component {
                 {products.map( product => (
                     <article key={product._id}>
                         <strong>{product.title}</strong>
+                        <p>{product.description}</p>
+                        <a href={product.url} target="_.blanket">Acessar</a>
                     </article>
                 ))}
             </div>
