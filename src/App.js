@@ -1,6 +1,6 @@
 import React from 'react';
-import Header from './components/Header'
-import ListProducts from './pages/main'
+import Header from './components/Header/index'
+import ListProducts from './pages/main/index'
 
 function App() {
   return (
